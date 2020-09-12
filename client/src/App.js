@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Jumbotron from "./components/Jumbotron";
+
 import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 import Input from "./components/Input";
 import Button from "./components/Button";
 import API from "./utils/API";
@@ -34,7 +35,12 @@ class App extends Component {
     return (
       <div>
         <Nav />
-        <Jumbotron />
+        <Hero backgroundImage="https://i.imgur.com/OpMq8UV.jpg">
+        <h1>The Chowspot</h1>
+        <h2>Looking for a recipe? Look no further... 
+</h2>
+      </Hero>
+       
         <Container>
           <Row>
             <Col size="md-12">
