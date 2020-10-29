@@ -35,12 +35,13 @@ class App extends Component {
     return (
       <div>
         <Nav />
+       
         <Hero backgroundImage="https://i.imgur.com/OpMq8UV.jpg">
         <h1>The Chowspot</h1>
         <h2>Looking for a recipe? Look no further... 
 </h2>
       </Hero>
-       
+      {/* <MenuContainer/> */}
         <Container>
           <Row>
             <Col size="md-12">

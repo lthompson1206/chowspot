@@ -1,3 +1,13 @@
 nav.navbar {
   margin-bottom: 0;
 }
+
+.menu {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.search {
+  padding-right: 5px;
+  padding-left: 10px;
+}
